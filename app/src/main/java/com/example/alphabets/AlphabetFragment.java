@@ -47,5 +47,11 @@ public class AlphabetFragment extends Fragment {
         TextView tv = (TextView) view.findViewById(R.id.alphabet_textview);
         char letter = EnglishAlphabet.DATA[mAlphabetIndex].letter;
         tv.setText(String.valueOf(letter));
+
+/*
+        int resId = EnglishAlphabet.DATA[mAlphabetIndex].image;
+        ImageView iv = (ImageView) view.findViewById(R.id.xxxxxxxx);
+        iv.setImageResource(resId);
+*/
     }
 }
